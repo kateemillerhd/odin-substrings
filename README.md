@@ -1,4 +1,4 @@
-# Substrings Detector (RUby)
+# Substrings Detector (Ruby)
 
 A simple Ruby method that scans a given string for valid substrings based on a provided dictionary.
 It returns a hash showing how mnay times each valid substring appears - case-insensensitive and
