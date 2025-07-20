@@ -1,8 +1,3 @@
-dictionary = [
-	"the", "quick", "brown", "fox", "jump", "jumped", "over",
-	"sleep", "sleeping", "dog", "o", "own", "moon"
-]
-
 def substrings(string, dictionary)
 	matches = Hash.new(0)
 	lower_string = string.downcase
@@ -18,3 +13,10 @@ def substrings(string, dictionary)
 
 	matches
 end
+
+dictionary = [
+	"the", "quick", "brown", "fox", "jump", "jumped", "over",
+	"sleep", "sleeping", "dog", "o", "own", "moon"
+]
+
+puts substrings("The quick brown fox", dictionary)
